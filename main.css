@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0px;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li { 
+    display: inline;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles article img {
+    height: 180px;
+    width: 270px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2,
+.artciles article {
+    margin-bottom: 16px;
+}
+
+.artciles article h3 {
+    margin-top: 8p;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 128, 0, 0.378);
+}
+
+#economy {
+    background-color: #2f3640;
+}
+
+#teste {
+    background-color: rgba(0, 128, 0, 0.378);
+}
+
+#gamer {
+    background-color: aquamarine;
+}
