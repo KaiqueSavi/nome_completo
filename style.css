@@ -1,0 +1,7 @@
+.concluido {
+    text-decoration: line-through;
+}
+
+ul li {
+    cursor: pointer;;
+}
