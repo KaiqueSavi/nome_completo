@@ -15,7 +15,7 @@ $(document).ready(function(){
     })
     
     $('li').click(function(){
-        $('li').toggleClass('concluido');
+        $('li').toggleClass('concluido')
     })
 
     });
