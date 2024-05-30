@@ -14,8 +14,8 @@ $(document).ready(function(){
 
     })
     
-    $('li').click(function(){
-        $('li').toggleClass('concluido');
-    })
+    $('ul').on('click', 'li', function() {
+        $(this).toggleClass('concluido');
+    });
 
     });
